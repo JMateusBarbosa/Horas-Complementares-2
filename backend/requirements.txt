@@ -5,5 +5,5 @@ Ative a máquina virtual:
 
 No Windows:
 
-Copy code
+cd backend: para executar o venv
 venv\Scripts\activate
