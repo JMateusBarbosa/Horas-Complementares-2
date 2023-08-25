@@ -1,0 +1,12 @@
+[
+  {
+    "nome": "ana",
+    "email": "ana@example.com",
+    "senha": "sha256$3DUXN0bYQUdxg1DS$4173643f1b801addfed44d5a7385045ca9df1de169cc2f064075e460564e3342"
+  },
+  {
+    "nome": "ana2",
+    "email": "ana@example.com",
+    "senha": "sha256$BRdQyA0dI7hZB7tI$88d9a56bc97c3e1ff49392a17f95992273bafc050218072fc0f1da0e15c976d3"
+  }
+]
