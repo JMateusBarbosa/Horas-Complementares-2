@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/frontend/public/css/register.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> 
+    
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button class="toggle-btn" onclick="logined()">Login</button>
+                <button class="toggle-btn" onclick="registered()">Cadastro</button>
+            </div>
+            <div class="social-icons">
+                <a target="_blank" href="https://www.linkedin.com/in/jo%C3%A3o-mateus-barbosa/">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a target="_blank" href="https://github.com/JMateusBarbosa">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/jmateus_b/">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="Nome de Usuario" required>
+                <input type="password" class="input-field" placeholder="Senha" required>
+                <button type="submit" class="submit-btn">Entrar</button>
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="Nome de Usuario" required>
+                <input type="email" class="input-field" placeholder="Digite seu email" required>
+                <input type="password" class="input-field" placeholder="Digite sua Senha" required>
+                <input type="checkbox" class="checkbox"><span>Aceito os termos e condições</span>
+                <button type="submit" class="submit-btn">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+    <script src="/frontend/src/pages/registerAndlogin.js"></script>
+</body>
+</html>
